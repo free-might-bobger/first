@@ -96,7 +96,7 @@ body {
 
 #page1 img {
   margin: 94px auto 0 auto;
-  width: 438px;
+  width: 500px;
   display: block;
 }
 
@@ -347,24 +347,58 @@ body {
   background-color: #161569;
 }
 
-@media screen and (max-width: 500px) {
-  .container {
-    width: 95%;
-  }
+@media screen and (max-width: 1215px) {
   #page2 #wrapper3 {
     float: none;
-    width: 300px;
+    max-width: 565px;
     font-size: 14px;
-    margin-left: 0px;
     margin: 0 auto;
   }
 
   #page2 #lefWrapper {
-    margin-top: 82px;
+    margin-top: ;
     float: none;
-    margin-right: 0px;
-    width: 300px;
+    margin: 82px auto 0 auto;
+    max-width: 463px;
     height: 462px;
-    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #logo {
+    margin-left: 30px;
+    position: relative;
+    width: 156px;
+    height: 79px;
+  }
+
+  #menu {
+    position: relative;
+    top: 32px;
+    right: 0px;
+    margin-left: 0;
+    margin: 0;
+  }
+
+  #menu li {
+    float: right;
+  }
+
+  #menu li a {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    text-decoration: underline;
+    color: #161569;
+  }
+
+  #image3 {
+    max-width: 904px;
+    height: 442px;
+    margin: 98px 20px 140px 20px;
+    background-image: url("../images/flow.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
